@@ -1,9 +1,10 @@
-# Exoplanet Candidate Validation
+> 🛠️ **Note:** My *Exoplanet Candidate Validation* project is currently under construction — the machine learning pipeline is complete, and notebook visualizations are being added soon.
+
+# 🪐 Exoplanet Candidate Validation ✨
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Build](https://img.shields.io/badge/Build-Passing-success?logo=githubactions)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## Overview
 This project builds a reproducible pipeline to classify exoplanet candidates as likely confirmed or unlikely based on orbital and stellar parameters. It combines transparent modeling with validation and interpretability, producing structured reports and notebook-based visualizations.
 
 <p align="center">
@@ -11,8 +12,6 @@ This project builds a reproducible pipeline to classify exoplanet candidates as 
     <img src="https://img.shields.io/badge/Run%20Pipeline-Open%20in%20Jupyter-orange?logo=jupyter" alt="Run Pipeline">
   </a>
 </p>
-
-<p align="center"><i>Machine learning pipeline for classifying and validating exoplanet candidates from NASA data.</i></p>
 
 
 <details>
