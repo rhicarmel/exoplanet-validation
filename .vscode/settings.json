@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "/Users/rhi/miniforge3/envs/exoplanet311/bin/python",
+    "python.envs.defaultEnvManager": "ms-python.python",
+    "python.envs.pythonProjects": [],
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
+}

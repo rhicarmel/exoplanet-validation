@@ -1,0 +1,27 @@
+seed: 42
+data:
+  raw_file: data/raw/pscomppars_20251108.csv
+  raw_dir: data/raw
+  processed_dir: data/processed
+  target_column: target_confirmed
+  id_column: pl_name
+features:
+  include:
+    - pl_orbper
+    - pl_rade
+    - st_teff
+    - st_rad
+    - sy_snum
+    - sy_pnum
+    - disc_year
+    - discoverymethod
+model:
+  baseline: logistic
+  tree: xgboost
+  test_size: 0.33
+  cv_folds: 5
+  calibration: true
+paths:
+  artifacts_dir: artifacts
+  metrics_file: artifacts/metrics.json
+  model_dir: artifacts/models
