@@ -1,7 +1,49 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
 
+# VS Code settings (machine-specific, not sharable)
+.vscode/
+
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
-*.log
-.conda/
+*.pyd
+
+# Jupyter auto-save checkpoints
+.ipynb_checkpoints/
+
+# Environment and virtual environment folders
 .env
+.venv/
+conda/
+*.conda
+*.env
+
+# Local conda environment created inside project (should not be committed)
+.conda/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Model artifacts (kept only if explicitly saved by your pipeline)
+# If you *want* to keep model outputs (joblib files), remove the next line:
+# artifacts/models/
+
+# Data directories
+# raw and processed data are included intentionally (your project uses sample CSVs)
+# If you ever store real data locally, add:
+# data/processed/
+# data/raw/
+
+# Ignore shell installers and binaries (e.g., Miniforge installers)
+*.sh
+*.bin
+*.exe
