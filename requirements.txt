@@ -9,3 +9,4 @@ requests==2.31.0
 tqdm==4.66.1
 astroquery==0.4.7
 PyYAML==6.0.1
+seaborn==0.13.2     
